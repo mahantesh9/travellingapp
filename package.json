@@ -2,7 +2,7 @@
   "name": "navbar-dropdown-v1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://manhantesh9.github.io/travel-app",
+  "homepage": "https://manhantesh9.github.io/travellingapp",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages build --openssl-legacy-providerexport"
+    "deploy": "gh-pages build"
   },
   "eslintConfig": {
     "extends": "react-app"

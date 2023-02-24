@@ -1,6 +1,10 @@
-import React from 'react';
-import '../../App.css';
+import React from "react";
+import "../../App.css";
 
 export default function Products() {
-  return <h1 className='products'>PRODUCTS</h1>;
+  const object = {
+    name: "Products",
+    age: 21,
+  };
+  return <h1 className="products">{object.name}</h1>;
 }
